@@ -33,3 +33,27 @@ i {
     color: #FF5252;
 }
 
+a {
+    color: #3F51B5;
+}
+
+//#3F51B5
+.nav-wrapper {
+    
+    position: relative;
+    height: 100;
+    line-height: 35px;
+}
+
+nav {
+    background-color: #BDBDBD;
+        height: 30px;
+        line-height: 30px;
+}
+
+.top-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
