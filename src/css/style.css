@@ -21,6 +21,15 @@ time, mark, audio, video {
 }
 
 body {
-    background: #C5CAE9;
+   background: #C5CAE9;
+}
+
+background {
+    background: #3F51B5;
+}
+
+/* Icons color */
+i {
+    color: #FF5252;
 }
 
