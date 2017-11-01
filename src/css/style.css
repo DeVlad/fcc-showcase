@@ -22,6 +22,8 @@ time, mark, audio, video {
 
 body {
    background: #C5CAE9;
+    font-family: roboto;
+    font-weight: 400;
 }
 
 background {
@@ -37,7 +39,6 @@ a {
     color: #3F51B5;
 }
 
-//#3F51B5
 .nav-wrapper {
     
     position: relative;
@@ -51,9 +52,12 @@ nav {
         line-height: 30px;
 }
 
+.page-footer {
+        background-color: #BDBDBD;
+}
+
 .top-left {
     position: fixed;
     top: 0;
     left: 0;
 }
-
