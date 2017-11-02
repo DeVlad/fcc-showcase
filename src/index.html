@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>FCC Showcase</title>
+    <title>FreeCodeCamp Showcase</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -12,15 +12,14 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
+    <div class="navbar">
         <nav>
             <div class="nav-wrapper">
-
                 <ul id="nav-mobile" class="right hide-on-small-only">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="menu-item"><a href="#">Home</a></li>
+                    <li class="menu-item"><a href="#about">About</a></li>
+                    <li class="menu-item"><a href="#projects">Projects</a></li>
+                    <li class="menu-item"><a href="#">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,23 +36,20 @@
                 <a href="#!email"><span class="white-text email">deyan@example.com</span></a>
             </div>
         </li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
+        <li><a class="waves-effect" href="https://github.com/devlad"><i class="fa fa-github fa-2x" aria-hidden="true"></i>Github</a></li>
+        <li><a class="waves-effect" href="https://www.freecodecamp.org/devlad"><i class="fa fa-free-code-camp fa-1x" aria-hidden="true"></i>
+FreeCodeCamp</a></li>
         <li>
             <div class="divider"></div>
-        </li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </li>        
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
-
     <div class="container">
-        <h2>Portfolio</h2>
-        <a name="portfolio"></a>
+        <a name="projects"></a>
+        <h2>Projects</h2>
         <div class="row">
             <div class="col m4">
-
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="img/pomodoro-clock.png">
@@ -67,11 +63,8 @@
                         <p>Free Code Camp project</p>
                     </div>
                     <div class="card-action">
-                        <i class="material-icons left">star</i>
-                        <i class="material-icons left">star</i>
-
-                        <i class="material-icons left">favorite_border</i>
                         <a href="https://github.com/DeVlad/pomodoro-clock" target="_blank">View code</a>
+                        <img class="tech-icon" src="img/icons/Materialize%20CSS.png">
                     </div>
                 </div>
             </div>
@@ -88,13 +81,13 @@
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Weather<i class="material-icons right">close</i></span>
                         <p>Free Code Camp project</p><br>
-                        <p><span class="grey-text">Üser Story: </span>I can see the weather in my current location.</p>
+                        <p><span class="grey-text">User Story: </span>I can see the weather in my current location.</p>
                         <p>User Story: I can see a different icon or background image depending on the weather.</p>
                         <p>User Story: I can push a button to toggle between Fahrenheit and Celsius.</p>
                     </div>
                     <div class="card-action">
-                        <i class="material-icons left">star</i>
                         <a href="https://github.com/DeVlad/localweather" target="_blank">View code</a>
+                        <img class="tech-icon" src="img/icons/jQuery.svg">
                     </div>
                 </div>
             </div>
@@ -105,19 +98,18 @@
                         <img class="activator" src="img/quotewall.jpg">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Random Quote Machine<i class="material-icons right">more_vert</i></span>
+                        <span class="card-title activator grey-text text-darken-4">Quote Machine<i class="material-icons right">more_vert</i></span>
                         <p><a href="http://quotewall.gq/" target="_blank">View</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Random Quote Machine<i class="material-icons right">close</i></span>
                         <p>Free Code Camp project</p><br>
-                        <p><span class="grey-text">Üser Story: </span> Project user story</p>
+                        <p><span class="grey-text">User Story: </span> Project user story</p>
 
                     </div>
                     <div class="card-action">
-                        <i class="material-icons left">star</i>
                         <a href="https://github.com/DeVlad/quotewall" target="_blank">View code</a>
-
+                        <img class="tech-icon" src="img/icons/jQuery.svg">
                     </div>
                 </div>
             </div>
@@ -134,13 +126,13 @@
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Wikipedia Search<i class="material-icons right">close</i></span>
                         <p>Free Code Camp project</p><br>
-                        <p><span class="grey-text">Üser Story: </span> Project user story</p>
+                        <p><span class="grey-text">User Story: </span> Project user story</p>
 
                     </div>
                     <div class="card-action">
-                        <i class="material-icons left">star</i>
                         <a href="https://github.com/DeVlad/wikisearch" target="_blank">View code</a>
-
+                        <img class="tech-icon" src="img/icons/jQuery.svg">
+                        <img class="tech-icon" src="img/icons/jQuery%20UI.svg">
                     </div>
                 </div>
             </div>
@@ -157,36 +149,11 @@
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Project title<i class="material-icons right">close</i></span>
                         <p>Free Code Camp project</p><br>
-                        <p><span class="grey-text">Üser Story: </span> Project user story</p>
-
+                        <p><span class="grey-text">User Story: </span> Project user story</p>
                     </div>
                     <div class="card-action">
                         <i class="material-icons left">star</i>
                         <a href="https://github.com/DeVlad/" target="_blank">View code</a>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/request-header-parser.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">HTTP Header Parser API<i class="material-icons right">more_vert</i></span>
-                        <p><a href="https://iposapi.herokuapp.com/request-header-parser-microservice" target="_blank">View</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Request Header Parser<i class="material-icons right">close</i></span>
-                        <p>Microservice API</p><br>
-                        <p><span class="grey-text">Üser Story: </span> Project user story</p>
-
-                    </div>
-                    <div class="card-action">
-                        <i class="material-icons left">star</i>
-                        <a href="https://github.com/DeVlad/" target="_blank">View code</a>
-
                     </div>
                 </div>
             </div>
@@ -195,20 +162,93 @@
         </div>
     </div>
 
+
+    <div class="container">
+        <h2>Back End Projects</h2>
+        <div class="row">
+            <div class="col m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/request-header-parser.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">HTTP Header Parser<i class="material-icons right">more_vert</i></span>
+                        <p><a href="https://iposapi.herokuapp.com/" target="_blank">View</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Request Header Parser<i class="material-icons right">close</i></span>
+                        <p>Microservice API</p><br>
+                        <p><span class="grey-text">User Story: </span> Project user story</p>
+
+                    </div>
+                    <div class="card-action">
+                        <a href="https://github.com/DeVlad/request-header-parser-microservice" target="_blank">View code</a>
+                        <img class="tech-icon" src="img/icons/node.js.png">
+                        <img class="tech-icon" src="img/icons/Express.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://via.placeholder.com/400x225">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Project title<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#" target="_blank">View</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Project title<i class="material-icons right">close</i></span>
+                        <p>Free Code Camp project</p><br>
+                        <p><span class="grey-text">User Story: </span> Project user story</p>
+                    </div>
+                    <div class="card-action">
+                        <i class="material-icons left">star</i>
+                        <a href="https://github.com/DeVlad/" target="_blank">View code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://via.placeholder.com/400x225">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Project title<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#" target="_blank">View</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Project title<i class="material-icons right">close</i></span>
+                        <p>Free Code Camp project</p><br>
+                        <p><span class="grey-text">User Story: </span> Project user story</p>
+                    </div>
+                    <div class="card-action">
+                        <i class="material-icons left">star</i>
+                        <a href="https://github.com/DeVlad/" target="_blank">View code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="page-footer">
         <div class="container">
-            
-                <p>Deyan</p>
-            <i class="fa fa-free-code-camp fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-            
+            <div class="col">
+                <p class="center-align">Deyan Vladkov</p>
+            </div>
+            <div class="col center-align">
+                <i class="footer-icon fa fa-free-code-camp fa-2x" aria-hidden="true"></i>
+                <i class="footer-icon fa fa-github fa-2x" aria-hidden="true"></i>
+            </div>
         </div>
     </footer>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- build:js js/fcc-showcase.min.js -->
     <script src="js/fcc-showcase.js" type="text/javascript"></script>
