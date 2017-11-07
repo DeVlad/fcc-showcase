@@ -19,7 +19,7 @@
                     <li class="menu-item"><a href="#">Home</a></li>
                     <li class="menu-item"><a href="#about">About</a></li>
                     <li class="menu-item"><a href="#projects">Projects</a></li>
-                    <li class="menu-item"><a href="#">Contact</a></li>
+                    <li class="menu-item"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -32,7 +32,7 @@
                     <li><a href="#"><i class="material-icons">home</i></a></li>
                     <li><a href="#about"><i class="material-icons">person</i></a></li>
                     <li><a href="#projects"><i class="material-icons">web</i></a></li>
-                    <li><a href="#"><i class="material-icons">contact_mail</i></a></li>
+                    <li><a href="#contact"><i class="material-icons">contact_mail</i></a></li>
                 </ul>
             </div>
         </nav>
@@ -47,7 +47,7 @@
                 </div>
                 <a href="#!user"><img class="circle" src="img/deyan.jpg"></a>
                 <a href="#!name"><span class="white-text name">Deyan</span></a>
-                <a href="#!email"><span class="white-text email">deyan@example.com</span></a>               
+                <a href="#!email"><span class="white-text email">deyan@example.com</span></a>
             </div>
         </li>
         <li><a class="waves-effect" href="https://github.com/devlad"><i class="fa fa-github fa-2x" aria-hidden="true"></i>Github</a></li>
@@ -335,6 +335,36 @@ FreeCodeCamp</a></li>
             -->
 
         </div>
+    </div>
+
+    <div class="container">
+        <a name="contact"></a>
+        <h2>Send me a message !</h2>
+        <div class="row">
+            <form class="col s12 m6 l6">
+                <div class="row">
+                    <div class="input-field">
+                        <input id="input_text" type="text" data-length="64">
+                        <label for="input_text">Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field">
+                        <input id="email" type="email" class="validate" data-length="64">
+                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field">
+                        <textarea id="textarea1" class="materialize-textarea" data-length="512"></textarea>
+                        <label for="textarea1">Message</label>
+                    </div>
+                </div>
+                <button class="col s12 m4 l4 offset-m4 offset-l4 btn waves-effect waves-light" type="submit" name="action">send</button>
+            </form>
+        </div>
+        
+
     </div>
 
 
