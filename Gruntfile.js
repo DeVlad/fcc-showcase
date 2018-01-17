@@ -130,5 +130,5 @@ module.exports = function (grunt) {
     //grunt.loadNpmTasks('babel');
     // Default tasks
     //grunt.registerTask('default', ['auto_install', 'validation', 'uglify', 'postcss', 'processhtml', 'htmlmin', 'copy']);
-    grunt.registerTask('default', ['auto_install', 'validation', 'uglify', 'postcss', 'processhtml', 'htmlmin', 'copy']);
+    grunt.registerTask('default', ['auto_install', 'uglify', 'postcss', 'processhtml', 'htmlmin', 'copy']);
 };
