@@ -12,14 +12,13 @@
     "grunt-auto-install": "^0.3.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-htmlmin": "^2.2.0",
-    "grunt-contrib-uglify": ">=0.5.0",
+    "grunt-contrib-uglify": "^3.3.0",
     "grunt-gh-pages": "^2.0.0",
     "grunt-postcss": "^0.8.0",
     "grunt-processhtml": "^0.4.1",
     "grunt-w3c-html-validation": ">=0.1.8",
-    "load-grunt-tasks": "^3.5.2"
-  },
-  "dependencies": {
+    "load-grunt-tasks": "^3.5.2",
     "pixrem": "^4.0.1"
-  }
+  },
+  "dependencies": {}
 }
